@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         callbackManager = CallbackManager.Factory.create()
         loginButton.setPermissions(listOf("email","public_profile"))
+        loginButton.setCompoundDrawablesWithIntrinsicBounds(0,0,0,0)
         LoginManager.getInstance().registerCallback(callbackManager,
             object : FacebookCallback<LoginResult> {
                 override fun onSuccess(loginResult: LoginResult) {
