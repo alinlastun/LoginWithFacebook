@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar.Transparent" parent="AppTheme.Base">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>
