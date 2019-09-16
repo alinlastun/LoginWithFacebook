@@ -1,10 +1,13 @@
 package com.example.loginwithfacebook
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
+import android.view.Gravity
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.size
 import com.facebook.*
 import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
@@ -17,9 +20,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        edit_text.setPadding(-30,-80,-30,-80)
+        edit_text.textInputLayout.editText?.textSize = 11f
+        edit_text.textInputLayout.editText?.gravity = Gravity.BOTTOM
+        edit_text.textInputLayout.editText?.background=null
+      //  edit_text.textInputLayout.setPadding(-30,-100,-30,-30)
        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-
         callbackManager = CallbackManager.Factory.create()
         loginButton.setPermissions(listOf("email","public_profile"))
         loginButton.setCompoundDrawablesWithIntrinsicBounds(0,0,0,0)

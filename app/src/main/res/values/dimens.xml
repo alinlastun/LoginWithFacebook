@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Default Spinner-->
+    <dimen name="default_spinner_width">120dp</dimen>
+    <dimen name="default_spinner_height">32dp</dimen>
+
+    <!--Register Screen-->
+    <dimen name="register_text_domain">14dp</dimen>
+    <dimen name="register_text_title_page">10dp</dimen>
+    <dimen name="register_text_buttons">16dp</dimen>
+</resources>

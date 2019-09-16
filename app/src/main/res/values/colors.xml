@@ -3,6 +3,23 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="white">#fff</color>
     <color name="black">#000</color>
+
+    <color name="gradient_start_color">#792282</color>
+    <color name="gradient_end_color">#2FCED5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="error">#E54E4E</color>
+    <color name="default_text">#1C1D1D</color>
+    <color name="default_text_bold">#232C2C</color>
+    <color name="navigation_text_selected">#792282</color>
+    <color name="navigation_text_unselected">#A999CC</color>
+    <color name="navigation_background">#F5F6F8</color>
+    <color name="welcome_button_text">#2D1A3B</color>
+    <color name="drop_down_border">#DBDFE5</color>
+
+
+    <color name="register_text_domain">#2D1A3B</color>
+    <color name="register_text_domain_unselected">#C3CAD8</color>
+    <color name="button_unselected">#792282</color>
 </resources>
